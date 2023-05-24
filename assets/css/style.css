@@ -7,16 +7,28 @@
     box-sizing: border-box;
 }
 
-body {}
-
 header {
-    margin-top: 65px;
+    margin-top: 30px;
+}
+
+.bars {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 header .container {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
+    padding: 0 1rem;
+    /* max-width: 1000px; */
+    /* margin: auto; */
+    /* display: flex;
+    flex-direction: row; */
+    /* background-color: yellow; */
     /* justify-content: space-between; */
     /* background-color: yellow; */
 }
@@ -84,11 +96,15 @@ header .seconddiv .signbtn {
     font-style: normal;
     font-weight: 700;
     font-size: 19.8688px;
+    border: none;
 }
 
 .tempbody .container {
     max-width: 1000px;
     margin-left: 183px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -106,12 +122,11 @@ header .seconddiv .signbtn {
 }
 
 .bigtext {
-    width: 637.95px;
-    height: 219px;
+    width: 350.95px;
     font-family: 'Dela Gothic One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 73.241px;
+    font-size: 40.241px;
     line-height: 100%;
     letter-spacing: -0.04em;
     color: #000000;
@@ -141,7 +156,6 @@ header .seconddiv .signbtn {
 
 .tempbody .container .signlearn .sign a {
     width: 84px;
-    height: 20px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -152,29 +166,20 @@ header .seconddiv .signbtn {
     margin-right: 20px;
 }
 
-.tempbody .container .signlearn .learn a {
+.tempbody .container .signlearn .learn {
     width: 128px;
-    height: 20px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 19.8688px;
     line-height: 100%;
     letter-spacing: -0.04em;
-    color: #2B788B;
-    /* border-radius: 50%; */
-    /* border-color: yellow;
-background-color: yellow; */
-    /* display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center; */
     padding: 5.67679px 25.5456px;
+    color: #2B788B;
     gap: 14.19px;
-    width: 179.09px;
-    height: 51.09px;
     background: #C3DCE3;
     border-radius: 17.0304px;
+    padding: 15px;
 }
 
 .zeus {
@@ -183,9 +188,16 @@ align-items: center; */
     justify-content: space-between;
 }
 
+header .header_hr hr {
+    margin: auto;
+    margin-right: 40px;
+    height: 25.77px;
+    border: 1.4192px solid #E0E0E0;
+}
+
 .zeus p {
+    text-align: center;
     width: 161px;
-    height: 28px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -193,6 +205,14 @@ align-items: center; */
     line-height: 140%;
     letter-spacing: -0.04em;
     color: #585858;
+}
+
+hr {
+    width: 0px;
+    height: 45.77px;
+    border: 1.4192px solid #E0E0E0;
+    margin-right: 35px;
+    margin-top: 15px;
 }
 
 .zeus .hours {
@@ -203,27 +223,20 @@ align-items: center; */
     flex-grow: 1.5;
 }
 
-.parttwo .child {
-    position: absolute;
-    left: 51.09%;
-    right: 10.1%;
-    top: 18.85%;
-    bottom: 16.43%;
-    z-index: 1;
+.parttwo img {
+    width: 100%;
+    height: 100%;
+    left: 869.95px;
+    top: 105px;
 }
 
-.parttwo .image6 {
-    position: absolute;
-    left: 47.52%;
-    right: 43.37%;
-    top: 38.96%;
-    bottom: 39.25%;
+.seven {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40.241px;
+
 }
 
-.parttwo .image12 {
-    position: absolute;
-    left: 71.77%;
-    right: 4.31%;
-    top: 18.89%;
-    bottom: 8.29%;
+.usersnumber {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40.241px;
 }

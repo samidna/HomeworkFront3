@@ -1,0 +1,5 @@
+@media only screen and (max-witdh:992px){
+header .container{
+    max-width: 990px;
+}
+}
