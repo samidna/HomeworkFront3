@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+header {
+    margin-top: 65px;
+}
+
+header .container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color: yellow; */
+}
+
+.firstdiv {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 15px;
+}
+
+header .container ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.8688px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #585858;
+    margin-left: 10px;
+}
+
+header .container .firstdiv ul {
+    display: flex;
+    margin-left: 68px;
+    list-style-type: none;
+}
+
+header .container ul li a {
+    color: #585858;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header .container .seconddiv {
+    flex-grow: 1;
+
+}
+
+header .container .seconddiv a {
+    text-decoration: none;
+    width: 72px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8688px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.seconddiv i {
+    margin-right: 20px;
+}
+
+header .seconddiv .signbtn {
+    background-color: #2B788B;
+    border-radius: 17.0304px;
+    width: 128.09px;
+    height: 51.22px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8688px;
+}
+
+.tempbody .container {
+    max-width: 1000px;
+    margin-left: 183px;
+
+}
+
+.tempbody .container a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8688px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2B788B;
+}
+
+.bigtext {
+    width: 637.95px;
+    height: 219px;
+    font-family: 'Dela Gothic One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73.241px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.tempbody {
+    display: flex;
+    margin-top: 70px;
+}
+
+.gain {
+    width: 461.91px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.7072px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+    margin-top: 40px;
+}
+
+.tempbody .container .signlearn {
+    margin-top: 50px;
+}
+
+.tempbody .container .signlearn .sign a {
+    width: 84px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8688px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.tempbody .container .signlearn .learn a {
+    width: 128px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8688px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    /* border-radius: 50%; */
+    /* border-color: yellow;
+background-color: yellow; */
+    /* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center; */
+    padding: 5.67679px 25.5456px;
+    gap: 14.19px;
+    width: 179.09px;
+    height: 51.09px;
+    background: #C3DCE3;
+    border-radius: 17.0304px;
+}
+
+.zeus {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zeus p {
+    width: 161px;
+    height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.8688px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+}
+
+.zeus .hours {
+    flex-grow: 1;
+}
+
+.zeus .users {
+    flex-grow: 1.5;
+}
+
+.parttwo .child {
+    position: absolute;
+    left: 51.09%;
+    right: 10.1%;
+    top: 18.85%;
+    bottom: 16.43%;
+    z-index: 1;
+}
+
+.parttwo .image6 {
+    position: absolute;
+    left: 47.52%;
+    right: 43.37%;
+    top: 38.96%;
+    bottom: 39.25%;
+}
+
+.parttwo .image12 {
+    position: absolute;
+    left: 71.77%;
+    right: 4.31%;
+    top: 18.89%;
+    bottom: 8.29%;
+}
